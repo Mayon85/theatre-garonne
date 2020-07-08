@@ -233,6 +233,10 @@ h2 {
   text-align: center;
 }
 
+#programmation .box-img {
+  position: relative;
+}
+
 #programmation img {
   width: 100%;
   height: 100%;

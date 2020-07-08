@@ -8,9 +8,9 @@
         justify-content: center;
         align-items: center;
 
-        &:hover {
-            
-        }
+        // &:hover .triangle-hover {
+        //     display: block;
+        // }
     }
 
     .prog-box {
@@ -21,6 +21,22 @@
         align-items: center;
         text-align: center;
     }
+
+    .box-img {
+        position: relative;
+    }
+
+    // .triangle-hover {
+    //     display: none;
+    //     width: 0;
+    //     height: 0;
+    //     display: inline-block;
+    //     border-left : 400px solid transparent;
+    //     border-bottom: 200px solid #8f1d2c57; 
+    //     position: absolute;
+    //     bottom: 0;
+    //     right: 0;
+    // }
 
     img {
         width: 100%;
