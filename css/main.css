@@ -233,10 +233,6 @@ h2 {
   text-align: center;
 }
 
-#programmation .box-img {
-  height: 200px;
-}
-
 #programmation img {
   width: 100%;
   height: 100%;
@@ -310,7 +306,7 @@ h2 {
 
 .danse {
   background-image: url(../images/danse.png);
-  height: 30vh;
+  height: 35vh;
   background-size: cover;
 }
 
@@ -333,9 +329,26 @@ h2 {
   margin-top: 50px;
 }
 
+#newsletter .truc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
 #newsletter input {
-  height: 20px;
-  width: 150px;
+  height: 38px;
+  width: 500px;
 }
 
 #newsletter a {
@@ -360,6 +373,7 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 20px;
 }
 
 #newsletter .reseaux .picto {
@@ -372,5 +386,40 @@ h2 {
 #newsletter .reseaux .picto img {
   height: 30px;
   margin: 5px;
+}
+
+@font-face {
+  font-family: 'Qualy';
+  src: url(../fonts/Qualy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Glacial regular';
+  src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Glacial bold';
+  src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+
+footer {
+  background-color: #9a9a9a;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer div {
+  margin-top: 50px;
+  color: white;
+}
+
+footer span {
+  color: #8f1d2c;
+  font-family: "Glacial bold";
 }
 /*# sourceMappingURL=main.css.map */
