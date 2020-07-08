@@ -1,0 +1,376 @@
+@font-face {
+  font-family: 'Qualy';
+  src: url(../fonts/Qualy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Glacial regular';
+  src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Glacial bold';
+  src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+
+@font-face {
+  font-family: 'Qualy';
+  src: url(../fonts/Qualy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Glacial regular';
+  src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Glacial bold';
+  src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+
+header {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+header .hero {
+  height: 90vh;
+  width: 90vw;
+  background: url(../images/hero_.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header h1 {
+  position: absolute;
+  bottom: 50px;
+  right: 150px;
+  font-size: 100px;
+  color: white;
+  z-index: 5;
+}
+
+header .span-shadow {
+  text-shadow: rgba(0, 0, 0, 0.183) 2px 4px 8px;
+}
+
+header .span-margin {
+  padding-left: 70px;
+}
+
+header .triangle {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-left: 800px solid transparent;
+  border-bottom: 300px solid #8f1d2c;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.topnav {
+  background-color: #a9a9a9;
+  overflow: hidden;
+  width: 90vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: fixed;
+  z-index: 50;
+}
+
+.topnav img {
+  height: 90px;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  border-bottom: 5px transparent solid;
+}
+
+.topnav a:hover {
+  border-bottom: 5px white solid;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.topnav .btn-header {
+  background-color: #8f1d2c;
+  font-family: "Glacial bold";
+}
+
+.topnav .btn-header:hover {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+@font-face {
+  font-family: 'Qualy';
+  src: url(../fonts/Qualy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Glacial regular';
+  src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Glacial bold';
+  src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Glacial regular";
+  overflow-x: hidden;
+}
+
+h1, h3 {
+  font-family: "Qualy";
+}
+
+h2 {
+  color: #a9a9a9;
+  font-family: "Glacial bold";
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+@font-face {
+  font-family: 'Qualy';
+  src: url(../fonts/Qualy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Glacial regular';
+  src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Glacial bold';
+  src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+
+#programmation {
+  margin-top: 50px;
+}
+
+#programmation .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#programmation .prog-box {
+  border: #afafaf solid 1px;
+  margin: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#programmation .box-img {
+  height: 200px;
+}
+
+#programmation img {
+  width: 100%;
+  height: 100%;
+}
+
+#programmation .box-content {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#programmation .btn-infos {
+  background-color: #8f1d2c;
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#programmation .btn-program {
+  position: relative;
+}
+
+#programmation .btn-program .triangle {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-left: 650px solid transparent;
+  border-bottom: 200px solid #8f1d2c;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#programmation .btn-program a {
+  text-decoration: none;
+  color: white;
+  z-index: 10;
+  position: absolute;
+  right: 40px;
+  bottom: 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Glacial bold";
+  letter-spacing: 5px;
+}
+
+@font-face {
+  font-family: 'Qualy';
+  src: url(../fonts/Qualy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Glacial regular';
+  src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Glacial bold';
+  src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+
+.danse {
+  background-image: url(../images/danse.png);
+  height: 30vh;
+  background-size: cover;
+}
+
+@font-face {
+  font-family: 'Qualy';
+  src: url(../fonts/Qualy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Glacial regular';
+  src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Glacial bold';
+  src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+
+#newsletter {
+  margin-top: 50px;
+}
+
+#newsletter input {
+  height: 20px;
+  width: 150px;
+}
+
+#newsletter a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #8f1d2c;
+  padding: 10px;
+}
+
+#newsletter .reseaux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#newsletter .reseaux .picto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+#newsletter .reseaux .picto img {
+  height: 30px;
+  margin: 5px;
+}
+/*# sourceMappingURL=main.css.map */

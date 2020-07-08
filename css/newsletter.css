@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'Qualy';
+  src: url(../fonts/Qualy-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Glacial regular';
+  src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+  font-family: 'Glacial bold';
+  src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+
+#newsletter {
+  margin-top: 50px;
+}
+
+#newsletter input {
+  height: 20px;
+  width: 150px;
+}
+
+#newsletter a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  background-color: #8f1d2c;
+  padding: 10px;
+}
+
+#newsletter .reseaux {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#newsletter .reseaux .picto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+#newsletter .reseaux .picto img {
+  height: 30px;
+  margin: 5px;
+}
+/*# sourceMappingURL=newsletter.css.map */

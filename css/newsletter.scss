@@ -1,0 +1,44 @@
+@import './variables';
+
+#newsletter {
+    margin-top: 50px;
+
+    .truc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    input {
+        height: 38px;
+        width: 200px;
+    }
+        
+        a {
+            text-transform: uppercase;
+            text-decoration: none;
+            color: white;
+            background-color: $primaryColor;
+            padding: 10px;
+        }
+
+    .reseaux {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .picto {
+            display: flex;
+            margin-left: 20px;
+        
+            img {
+                height: 30px;
+                margin: 5px;
+            }
+        }
+    }
+
+}
+

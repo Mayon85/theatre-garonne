@@ -1,0 +1,25 @@
+//COULEURS
+
+$primaryColor : #8f1d2c;
+$gray :#a9a9a9;
+
+// POLICES
+
+@font-face {
+    font-family: 'Qualy';
+    src: url(../fonts/Qualy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Glacial regular';
+    src: url(../fonts/GlacialIndifference-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Glacial bold';
+    src: url(../fonts/GlacialIndifference-Bold.otf);
+}
+
+$title-font : 'Qualy';
+$body-font : 'Glacial regular';
+$bold : 'Glacial bold';
