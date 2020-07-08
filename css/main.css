@@ -411,6 +411,7 @@ footer {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  margin-top: 60px;
 }
 
 footer div {
